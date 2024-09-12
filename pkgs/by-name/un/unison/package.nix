@@ -53,7 +53,7 @@ stdenv.mkDerivation (finalAttrs: {
   });
 
   meta = with lib; {
-    homepage = "https://www.cis.upenn.edu/~bcpierce/unison/";
+    homepage = "https://github.com/bcpierce00/unison/wiki";
     description = "Bidirectional file synchronizer";
     license = licenses.gpl3Plus;
     maintainers = with maintainers; [ nevivurn ];
